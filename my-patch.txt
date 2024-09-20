@@ -1,0 +1,49 @@
+Return-Path: <dominickhudson@u.boisestate.edu>
+Received: from codespaces-7a0faa.crtythgi42he1kogjsmmtjlj4b.xx.internal.cloudapp.net ([51.143.4.81])
+        by smtp.gmail.com with ESMTPSA id d9443c01a7336-207946d280csm97388565ad.130.2024.09.20.10.34.53
+        for <dominickhudson@u.boisestate.edu>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Fri, 20 Sep 2024 10:34:53 -0700 (PDT)
+From: Dominick Hudson <dominickhudson@u.boisestate.edu>
+To: dominickhudson@u.boisestate.edu
+Subject: [PATCH] Squashed commit of the following:
+Date: Fri, 20 Sep 2024 17:34:46 +0000
+Message-ID: <20240920173446.18468-1-dominickhudson@u.boisestate.edu>
+X-Mailer: git-send-email 2.46.0
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+
+commit e68c5cafce9d5d349fdcd76cfe9d01a47c15adcd
+Author: Allegory91 <dominickhudson@u.boisestate.edu>
+Date:   Fri Sep 20 17:09:48 2024 +0000
+
+    Added a file with my name in it
+
+commit 60758990465d6c172988a9968e08585a169a649b
+Author: Allegory91 <dominickhudson@u.boisestate.edu>
+Date:   Fri Sep 20 17:08:10 2024 +0000
+
+    Added a date file
+---
+ my-name.txt  | 1 +
+ the-date.txt | 1 +
+ 2 files changed, 2 insertions(+)
+ create mode 100644 my-name.txt
+ create mode 100644 the-date.txt
+
+diff --git a/my-name.txt b/my-name.txt
+new file mode 100644
+index 0000000..e66c1e8
+--- /dev/null
++++ b/my-name.txt
+@@ -0,0 +1 @@
++My Name
+diff --git a/the-date.txt b/the-date.txt
+new file mode 100644
+index 0000000..4f932eb
+--- /dev/null
++++ b/the-date.txt
+@@ -0,0 +1 @@
++Fri Sep 20 17:07:22 UTC 2024
+-- 
+2.46.0
